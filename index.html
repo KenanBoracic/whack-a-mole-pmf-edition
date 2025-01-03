@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a Mole</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="naslov">
+            <h1> Whack a Mole</h1>
+        </div>
+
+        <div class="glavni-meni">
+           <a href=""> <button class="button" id="button1" onclick="novaIgra()"> New Game</a></button>
+            <div id="izborPolja" style="display: none;">
+                <h2 id="naslovOdabira">Choose field dimensions</h2>
+                <div class="izborPolja">
+                <a href="4x4.html"><button class="polje-button" >4x4</button></a>
+                <a href="5x5.html"><button class="polje-button" >5x5</button></a>
+                <a href="6x6.html"><button class="polje-button" >6x6</button></a>
+            </div> 
+            <a href="index.html"><button class="polje-button">Back to meni</button></a>
+               
+              </div>
+              
+
+            <button class="button" id="button1"><a href="upute.html"> Instructions </a></button>
+
+            <button class="button" id="button1"><a href="oProjektu.html">About the Project</a></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Modak&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lexend+Mega:wght@100..900&family=Modak&family=Oi&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    cursor: url("img/cursor.png"),pointer;
+
+}
+
+body{
+   
+    cursor: url("img/cursor.png"),pointer;
+    background-image: url("img/pozadina.svg");
+    
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    
+    align-items: center;
+}
+
+
+.glavni-meni{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    width: 22%;
+    height: 40%;
+
+
+}
+.naslov h1{
+    color: #fff;
+    font-size: 80px;
+    font-family: "Oi", serif;
+    font-weight:lighter;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 7px 4px 6px rgba(0,0,0,0.61);
+}
+
+.glavni-meni .button {
+    background-color: #E67E22;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    
+    transition: ease-in-out 0.3s;
+    box-shadow: 0px -7px 49px -3px rgba(0,0,0,0.54);
+-webkit-box-shadow: 0px -7px 49px -3px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px -7px 49px -3px rgba(0,0,0,0.54);
+    
+}
+.glavni-meni .button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.glavni-meni button:hover {
+    background-color: #47ff26;
+    transform: scale(1.1);
+    color: #2C3E50;
+}
+.glavni-meni .button:hover a {
+    color: #2C3E50;
+   font-weight: bolder;
+}
+
+
+/* o projektu */
+.container2{
+   
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    
+
+
+
+}
+.podnaslov{
+   
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+.podnaslov h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Oi", serif;
+    font-weight:lighter;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 7px 4px 6px rgba(0,0,0,0.61);
+
+}
+.informacije{
+    display: flex;
+    flex-direction: column;
+    
+    height: 70%;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+
+    font-family: "Bangers", serif;
+   
+    
+  
+
+}
+
+.predmet{
+    text-align: center;
+}
+.predmet ul{
+    list-style: none;
+    color:white;
+}
+.predmet ul li{
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}
+.predmet h5{
+    color: #39FF14;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    
+  
+}
+
+.studij{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+
+}
+.studij h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}
+.nazivProjekta{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    text-align: center;
+}
+.nazivProjekta h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}
+.oAutoru{
+    text-align: center;
+}
+.oAutoru ul{
+    list-style: none;
+    color: white;
+}
+.oAutoru ul li{
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}
+.oAutoru h5{
+    color: #39FF14;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+}
+
+#izborPolja{
+    text-align: center;
+    margin: 20px;
+   ;
+    
+}
+#izborPolja h2{
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px
+}
+#izborPolja button{
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+#naslovOdabira{
+    font-size: 27px;
+    color:white;
+    margin-bottom: 30px;
+}
+.polje-button a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.polje-button{
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+
+    border: none;
+    background-color: #E67E22;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+.polje-button:hover{
+    background-color: #39FF14;
+}
+
+/*  tablet */
+@media (max-width: 998px) and (min-width: 765.5px) {
+    .naslov h1{
+        font-size: 50px;
+    }
+    .glavni-meni{
+        width: 80%;
+    }
+
+    .glavni-meni .button a{
+        font-size: 25px;
+    }
+    .container2{
+        width: 100%;
+    }
+    .podnaslov h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .predmet ul li{
+        font-size: 20px;
+    }
+
+    
+}
+
+  
+/* telefon */ 
+@media (max-width: 765px){
+    .naslov h1{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .glavni-meni{
+        width: 80%;
+    }
+
+    .glavni-meni .button a{
+        font-size: 20px;
+    }
+    #izborPolja h2{
+        font-size: 25px;
+    }
+    .container2{
+        width: 100%;
+    }
+    .podnaslov h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .predmet ul li{
+        font-size: 15px;
+    }
+    .predmet h5{
+        font-size: 20px;
+    }
+    .studij h5{
+        font-size: 18px;
+    }
+    .nazivProjekta h5{
+        font-size: 18px;
+    }
+    .oAutoru h5{
+        font-size: 18px;
+    }
+    .oAutoru ul li{
+        font-size: 19px;
+    }
+}

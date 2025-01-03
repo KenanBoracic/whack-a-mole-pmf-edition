@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a Mole</title>
+    <link rel="icon" href="img/favicon.png">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="6x6.css">
+    <script src="script.js"></script>
+    </head>
+<body>
+
+    <div class="container">
+
+        <div class="naslov">
+            <h1> Whack a Mole</h1>
+        </div>
+        <div class="dugmeZaZvuk"  id="dugmeZaZvuk" style="display:none">
+            <button onclick="ugasiZvuk()" ><i class="fa-solid fa-volume-xmark"></i></button>
+        </div>
+        <div class="igra">
+            <div  style="display:none" id="zivoti" class="zivoti">
+                <p id="zivot1">💚</p>
+                <p id="zivot2">💚</p>
+                <p id="zivot3">💚</p>
+            </div>
+            <div class="podaci" id="podaci" style="display:none">
+            
+            <h4 id="score"> Score: 0</h4>
+           
+            <h4 id="preostaloVrijeme"> Time: 30s</h4>
+        </div>
+
+            <div class="krajIgre" id="krajIgre" style="display: none;">
+                <h3> Game Over</h3>
+                <h4 id="bodovi"> Score: </h4>
+                <div class="dugmici">
+                    <a href="index.html"><button> Back to meni</button></a>
+                    <a href="4x4.html"><button> Play again</button></a>
+
+                </div>
+            </div>
+
+            <audio id="zvukUdarca" >
+                <source src="audio/punch.mp3" type="audio/mpeg">
+                <source src="audio/zvuk.wav" type="audio/wav">
+                
+            </audio>
+            <audio id="zvukFaila">
+                <source src="audio/fail.wav" type="audio/wav">
+            </audio>
+            <audio id="zvukIgrice">
+                <source src="audio/game.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="bonusSekunde">
+                <source src="audio/zvukBonusa.mp3" type="audio/mpeg">
+            </audio>
+            
+            <div class="mreza" id="mreza" >
+                
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+             <div class="polja"></div>
+            </div>
+            <div class="startDugme" >
+            <button id="start" onclick="startGame()"> Start </button>
+            
+        </div>
+        </div>
+       
+    </div>
+    
+    
+
+<script src="game.js"></script>
+</body>
+</html>

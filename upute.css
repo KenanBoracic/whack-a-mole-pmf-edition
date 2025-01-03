@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Modak&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lexend+Mega:wght@100..900&family=Modak&family=Oi&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lexend+Mega:wght@100..900&family=Modak&family=Oi&family=Orbitron:wght@400..900&family=Share+Tech+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    cursor: url("img/cursor.png"),pointer;
+}
+
+body{
+    background-image: url("img/pozadina.svg");
+    cursor: url("img/cursor.png"),pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120vh;
+    width: 80%;
+    margin: 20px auto;
+   
+    align-items: center;
+}
+
+
+.naslov h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: "Oi", serif;
+    font-weight:lighter;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 7px 4px 6px rgba(0,0,0,0.61);
+}
+.upute{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    width: 50%;
+    color:white;
+
+
+}
+.upute h4{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 2px 4px rgba(0,0,0,0.61);
+}
+.upute p{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Share Tech Mono", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.legenda h4{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 2px 4px rgba(0,0,0,0.61);
+    letter-spacing: 4px;
+    text-shadow: 7px 4px 6px rgba(0,0,0,0.61);
+}
+.legenda{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+  
+}
+.simbol{
+    display: flex;
+    
+    justify-content:start;
+    align-items: center;
+    border: 2px solid #E67E22;
+    gap:5px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.simbol img{
+    width: 50px;
+
+}
+.simbol h6{
+    font-size: 25px;
+    color:white;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 2px 4px rgba(0,0,0,0.61);
+}
+
+/*  tablet */
+@media (max-width: 998px) and (min-width: 765.5px) {
+    .container{
+        width: 100%;
+    }
+    .naslov h1{
+        font-size: 40px;
+    }
+    .upute{
+        width: 100%;
+    }
+    .upute h4{
+        font-size: 30px;
+    }
+    .upute p{
+        font-size: 15px;
+    }
+    .legenda h4{
+        font-size: 30px;
+    }
+    .simbol h6{
+        font-size: 23px;
+    }
+
+}
+
+  
+/* telefon */ 
+@media (max-width: 765px){
+    .container{
+        width: 100%;
+    }
+    .naslov h1{
+        font-size: 25px;
+    }
+    .upute{
+        width: 100%;
+    }
+    .upute h4{
+        font-size: 20px;
+    }
+    .upute p{
+        font-size: 13px;
+    }
+    .legenda h4{
+        font-size: 23px;
+    }
+    .simbol h6{
+        font-size: 20px;
+    }
+
+   
+}
